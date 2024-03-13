@@ -3,3 +3,18 @@ body {text-align: center;}
 p {color: rgb(7,77,77);}
 h1 {color:rgb(7, 77, 77);}
 body {font-family:cursive;}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(12, 7, 77);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color:rgb(12, 7, 77);
+    background-color: transparent;
+    text-decoration: underline;
+  }

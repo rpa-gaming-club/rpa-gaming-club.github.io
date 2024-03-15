@@ -3,17 +3,6 @@ body {text-align: center;}
 p {color: rgb(7,77,77);}
 h1 {color:rgb(7, 77, 77);}
 body {font-family:cursive;}
-.flex-container {
-    display: flex;
-    justify-content: center; /* Center flex items horizontally */
-    align-items: center; /* Center flex items vertically */
-    height: 200px; /* Specify height */
-   margin-bottom:50px;
-    }
-.flex-item {
-    margin: 50px;
-    padding: 15px;
-}
 a:link {
     color: green;
     background-color: transparent;
@@ -30,4 +19,3 @@ a:link {
     font-size: 17px;
     transition: ease-in-out 0.5s;
   }
-  

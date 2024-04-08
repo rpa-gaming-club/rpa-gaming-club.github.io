@@ -1,24 +1,33 @@
-body {background-color :gray;}
+body {background-color :rgb(255, 255, 255);}
 body {text-align: center;}
-p {
-    color: rgb(7,77,77);
-    margin: 20px;
-}
+p {color: rgb(7,77,77);}
 h1 {color:rgb(7, 77, 77);}
-body {font-family:cursive;}
+body {font-family:Alegreya Sans;}
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center flex items horizontally */
+    align-items: center; /* Center flex items vertically */
+    height: 200px; /* Specify height */
+   margin-bottom:50px;
+    }
+.flex-item {
+    margin: 50px;
+    padding: 15px;
+}
 a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: rgb(12, 7, 77);
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color:rgb(12, 7, 77);
-  background-color: transparent;
-  font-size: 17px;
-  transition: ease-in-out 0.5s;
-}
+    color:rgb(12, 7, 77);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(12, 7, 77);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color:rgb(12, 7, 77);
+    background-color: transparent;
+    font-size: 17px;
+    transition: ease-in-out 0.5s;
+  }
+ 

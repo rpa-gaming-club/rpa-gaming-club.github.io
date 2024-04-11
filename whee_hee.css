@@ -30,5 +30,6 @@ a:link {
     background-color: transparent;
     font-size: 17px;
     transition: ease-in-out 0.5s;
+    text-decoration: underline;
   }
  

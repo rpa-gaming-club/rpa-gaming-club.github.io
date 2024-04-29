@@ -1,33 +1,28 @@
-body {background-color :rgb(255, 255, 255);}
-body {text-align: center;}
-p {color: rgb(7,77,77);}
-h1 {color:rgb(7, 77, 77);}
-body {font-family:Alegreya Sans;}
-.flex-container {
-    display: flex;
-    justify-content: center; /* Center flex items horizontally */
-    align-items: center; /* Center flex items vertically */
-    height: 200px; /* Specify height */
-   margin-bottom:50px;
-    }
-.flex-item {
-    margin: 50px;
-    padding: 15px;
+/* Reset default browser styles */
+body, ul {
+  margin: 0;
+  padding: 0;
 }
-a:link {
-    color:rgb(12, 7, 77);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: rgb(12, 7, 77);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color:rgb(12, 7, 77);
-    background-color: transparent;
-    font-size: 17px;
-    transition: ease-in-out 0.5s;
-  }
- 
+
+nav {
+  background-color: #333; /* Set background color */
+  padding: 10px 20px; /* Add some padding */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points from the list */
+}
+
+li {
+  display: inline; /* Display list items inline */
+  margin-right: 20px; /* Add some space between list items */
+}
+
+a {
+  color: white; /* Set link color to white */
+  text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

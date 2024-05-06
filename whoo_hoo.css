@@ -15,17 +15,17 @@ body {font-family:Alegreya Sans;}
     padding: 15px;
 }
 a:link {
-    color:rgb(12, 7, 77);
+    color:rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
   }
   a:visited {
-    color: rgb(12, 7, 77);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color:rgb(12, 7, 77);
+    color:rgb(255, 255, 255);
     background-color: transparent;
     font-size: 17px;
     transition: ease-in-out 0.5s;
@@ -78,3 +78,34 @@ a:link {
       height: 100%;
       border: 0;
   }
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333; /* Set background color */
+    padding: 10px 20px; /* Add some padding */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullet points from the list */
+  }
+  
+  li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add some space between list items */
+  }
+  
+  a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  /* .rpa_website img{
+    display:flex;
+    margin-right: 100%;
+  } */
